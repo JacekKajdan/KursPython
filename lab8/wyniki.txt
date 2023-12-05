@@ -1,0 +1,45 @@
+n=2000000 k=1000000
+
+Wersja 1:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.25
+Maximum resident set size (kbytes): 217204
+
+Wersja 2:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.91
+Maximum resident set size (kbytes): 123024
+
+
+
+n=5000000 k=1000000
+
+Wersja 1:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.90
+Maximum resident set size (kbytes): 522976
+
+Wersja 2:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.96
+Maximum resident set size (kbytes): 287648
+
+
+
+n=5000000 k=2000000
+
+Wersja 1:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.44
+Maximum resident set size (kbytes): 526640
+
+Wersja 2:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.82
+Maximum resident set size (kbytes): 291444
+
+
+
+n=10000000 k=10000000
+
+Wersja 1:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.52
+Maximum resident set size (kbytes): 1066472
+
+Wersja 2:
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.31
+Maximum resident set size (kbytes): 595896
