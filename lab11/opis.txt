@@ -1,0 +1,10 @@
+Program z zadania drugiego może być podstawą do stworzenia symulacji rozgrywek ekstraklasy.
+
+Żeby nie być gołosłownym przesyłam dodatkowo mój projekt który napisałem 2 lata temu, który to właśnie wykonuje.
+Program pobiera dane z tabeli ekstraklasy, listę meczów pozostałych do rozegrania oraz ranking elo drużyn.
+Na podstawie tego przeprowadza 10000 symulacji i zapisuje w pliku xlsx statystyczne szanse na dane wydarzenie i miejsce w tabeli.
+Projekt pisałem dawno, więc do najładniejszych nie należy (nie używałem BeautifulSoup tylko całą stronę traktowałem jako string).
+Do tego zauważyłem dzisiaj, że procedura pobierająca tabelę nie działa i znalazłem w Internecie, że może to wynikać z tego, iż
+strona z której pobieram wprowadziła zabezpieczenia przed tą biblioteką (tak mi się przynajmniej wydaje).
+
+Program uruchamia się poleceniem python league_simulation_combo.py, ale przykładowy wynik jest już w Esa.xlxs
